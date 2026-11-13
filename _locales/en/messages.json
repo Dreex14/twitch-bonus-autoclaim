@@ -1,0 +1,10 @@
+{
+  "extName":        { "message": "Twitch Bonus Autoclaim (local)" },
+  "extDescription": { "message": "Automatically claims the channel points bonus chest on Twitch. No telemetry, no network, no extra permissions." },
+  "actionTitle":    { "message": "Twitch Bonus Autoclaim" },
+  "popupTitle":     { "message": "Bonus Autoclaim" },
+  "enabled":        { "message": "Enabled" },
+  "claimedCount":   { "message": "Chests claimed:" },
+  "lastClaim":      { "message": "Last:" },
+  "resetCounter":   { "message": "Reset counter" }
+}

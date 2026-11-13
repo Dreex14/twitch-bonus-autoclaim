@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body { font: 14px system-ui, sans-serif; width: 220px; margin: 12px; background: #18181b; color: #efeff1; }
+    h1 { font-size: 15px; margin: 0 0 10px; color: #bf94ff; }
+    label { display: flex; align-items: center; gap: 8px; cursor: pointer; }
+    .stats { margin-top: 10px; font-size: 12px; color: #adadb8; line-height: 1.6; }
+    button { margin-top: 8px; background: #2f2f35; color: #efeff1; border: 0; padding: 4px 8px; border-radius: 4px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1 data-i18n="popupTitle"></h1>
+  <label><input type="checkbox" id="enabled"> <span data-i18n="enabled"></span></label>
+  <div class="stats">
+    <span data-i18n="claimedCount"></span> <b id="claims">0</b><br>
+    <span data-i18n="lastClaim"></span> <span id="last">—</span>
+  </div>
+  <button id="reset" data-i18n="resetCounter"></button>
+  <script src="popup.js"></script>
+</body>
+</html>

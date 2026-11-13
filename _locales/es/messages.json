@@ -1,0 +1,10 @@
+{
+  "extName":        { "message": "Twitch Bonus Autoclaim (local)" },
+  "extDescription": { "message": "Reclama automáticamente el cofre de puntos de canal en Twitch. Sin telemetría, sin red, sin permisos extra." },
+  "actionTitle":    { "message": "Twitch Bonus Autoclaim" },
+  "popupTitle":     { "message": "Bonus Autoclaim" },
+  "enabled":        { "message": "Activado" },
+  "claimedCount":   { "message": "Cofres reclamados:" },
+  "lastClaim":      { "message": "Último:" },
+  "resetCounter":   { "message": "Reiniciar contador" }
+}
